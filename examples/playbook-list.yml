@@ -1,0 +1,3 @@
+- examples/playbooks/test1.yml
+- examples/playbooks/foo/bar.yml
+- examples/playbooks/foo/baz.yml

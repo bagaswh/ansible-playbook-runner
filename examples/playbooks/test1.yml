@@ -1,0 +1,6 @@
+- name: Test1 playbook
+  hosts: localhost
+  tasks:
+    - name: Debug test1 playbook
+      ansible.builtin.debug:
+        msg: "test1 {{ with_test_variable | default('this is a default pelyu') }}"

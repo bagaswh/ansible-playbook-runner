@@ -1,0 +1,6 @@
+- name: Bar playbook
+  hosts: localhost
+  tasks:
+    - name: Debug bar playbook
+      ansible.builtin.debug:
+        msg: bar playbook

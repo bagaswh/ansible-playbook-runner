@@ -1,0 +1,6 @@
+- name: Baz playbook
+  hosts: localhost
+  tasks:
+    - name: Debug baz playbook
+      ansible.builtin.debug:
+        msg: baz playbook
